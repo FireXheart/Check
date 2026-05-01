@@ -1,0 +1,31 @@
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #020202;
+}
+
+.app {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.content_column {
+  width: 80%;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .content_column {
+    width: 90%;
+  }
+
+}
